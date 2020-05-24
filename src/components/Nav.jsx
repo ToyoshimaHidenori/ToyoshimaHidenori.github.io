@@ -3,7 +3,7 @@ import React from 'react'
 import './tailwind.css'
 
 export default () => (
-	<nav class="flex shadow-2xl items-center justify-between flex-wrap bg-green-600 p-3">
+	<nav class="flex shadow-lg items-center justify-between flex-wrap bg-green-600 p-3">
   		<div class="flex items-center flex-shrink-0 text-white mr-6">
     		<span class="font-semibold text-xl tracking-tight">Toyoshima Hidenori's website</span>
   		</div>
@@ -27,7 +27,7 @@ export default () => (
 					 
 				</a>
 				<a href="https://github.com/ToyoshimaHidenori/ToyoshimaHidenori.github.io" class="block mt-4 lg:inline-block lg:mt-0 p-2 text-green-200 hover:text-white">
-					Blog
+					TechBlog
 				</a>
 			</div>
 			<div>
