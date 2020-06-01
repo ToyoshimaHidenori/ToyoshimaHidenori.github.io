@@ -9,7 +9,7 @@ export default () => (
 	<div class="flex-grow">
 	<Nav />
     <Heading />
-	</div>
     <Footer />
+	</div>
   </div>
 )
