@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.flex-grow {
+  min-height: 100vh;
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 3.5s alternate-reverse;
