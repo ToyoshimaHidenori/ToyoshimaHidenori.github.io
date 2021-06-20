@@ -2,7 +2,7 @@ import React from 'react'
 import './tailwind.css'
 
 export default ({date = '', title = '', description = ''}) => (
-<div class="flex relative pt-10 pb-10 sm:items-center md:w-2/3 mx-auto">
+<div class="flex relative pt-10 pb-10 sm:items-center w-2/3 mx-auto">
   <div class="h-full w-20 absolute inset-0 flex items-center justify-center">
     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
   </div>

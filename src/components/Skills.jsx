@@ -3,7 +3,7 @@ import './tailwind.css'
 import About	from './About.jsx'
 
 export default () => (
-<section class="text-gray-600 body-font">
+<section id='skills' class="text-gray-600 body-font">
   <About title="Skills" subtitle="Webアプリとかデータ分析とか"/>
   <div class="container px-5 pb-24 pt-10 mx-auto">
     <div class="flex flex-wrap -m-4">
