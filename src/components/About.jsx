@@ -1,6 +1,5 @@
 import React from 'react'
 import './tailwind.css'
-import Event from './Event.jsx'
 
 export default ({title = '', subtitle = ''}) => (
   <div class="flex flex-col text-center w-full pb-1 pt-32">

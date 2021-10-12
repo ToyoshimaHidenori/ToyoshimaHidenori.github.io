@@ -1,6 +1,5 @@
 import React	from 'react'
 import Nav		from './Nav.jsx'
-import Heading	from './Heading.jsx'
 import Skills	from './Skills.jsx'
 import Histories from './Histories.jsx'
 import Portfolio from './Portfolio.jsx'
@@ -12,10 +11,9 @@ export default () => (
   <div class="flex flex-col min-h-screen">
     <div class="flex-grow">
       <Nav />
-      <Heading />
       <Skills />
       <Histories />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Footer />
     </div>
   </div>

@@ -15,7 +15,7 @@ export default () => (
       <Heading />
       <Skills />
       <Histories />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Footer />
     </div>
   </div>
